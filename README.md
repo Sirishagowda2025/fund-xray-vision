@@ -3,9 +3,7 @@
 > **ET Gen AI Hackathon 2026 — Phase 2 Submission**  
 > Problem Statement #9: AI Money Mentor · Solo submission by Sirisha D
 
-**Live App:** https://mf-portfolio-x-ray-a-8qzt.bolt.host 
---
-**Backend API:** https://mf-portfolio-xray.onrender.com/api/health
+**Live App:** https://fund-xray-vision.vercel.app/
 
 ---
 
