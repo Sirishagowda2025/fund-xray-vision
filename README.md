@@ -4,6 +4,7 @@
 > Problem Statement #9: AI Money Mentor · Solo submission by Sirisha D
 
 **Live App:** https://mf-portfolio-x-ray-a-8qzt.bolt.host 
+--
 **Backend API:** https://mf-portfolio-xray.onrender.com/api/health
 
 ---
@@ -200,17 +201,5 @@ npm run dev
 2. Add env var: `VITE_API_URL=https://mf-portfolio-xray.onrender.com`
 
 ---
-
-## Fallbacks (Demo Never Breaks)
-
-| Failure | Fallback |
-|---|---|
-| PDF parse fails | Realistic mock portfolio (5 funds, real figures) |
-| Claude API unavailable | Pre-computed mock insights |
-| Upload times out | Demo data with warning banner |
-| Backend unreachable | Static demo data |
-
-
-
 
 *Sirisha D · ET Gen AI Hackathon 2026 · Powered by Claude Sonnet 4 (Anthropic)*
