@@ -102,7 +102,6 @@ India has **14 crore+ demat accounts**. Most retail investors are flying blind â
 
 ----
 
-```
 ## Impact Model
 
 ```
