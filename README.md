@@ -17,8 +17,7 @@ India has **14 crore+ demat accounts**. Most retail investors are flying blind â
 
 ## What It Does
 
---
-![Workflow Diagram](work_flow_diagram.png)
+![Workflow Diagram](Work_flow_diagram.png)
 ---
 
 ## Features
