@@ -17,7 +17,7 @@ India has **14 crore+ demat accounts**. Most retail investors are flying blind �
 
 ## What It Does
 
-![Workflow Diagram](Work_flow_diagram.png)
+![Workflow Diagram](Work_flow.png)
 ---
 
 ## Features
@@ -90,18 +90,16 @@ India has **14 crore+ demat accounts**. Most retail investors are flying blind �
 ## Tech Stack
 
 ```
-Frontend              Backend               AI
-─────────────         ─────────────         ─────────────
-React 18 + TypeScript Node.js + Express 5   Claude Sonnet 4
-Vite 5                pdf-parse             Anthropic SDK
-Tailwind CSS          Newton-Raphson XIRR   Multi-agent
-Recharts              multer (uploads)
-Framer Motion         CORS + dotenv
+| **Frontend** | **Backend** | **AI** |
+| :--- | :--- | :--- |
+| React 18 + TypeScript | Node.js + Express 5 | Claude Sonnet 4 |
+| Vite 5 | pdf-parse | Anthropic SDK |
+| Tailwind CSS | Newton-Raphson XIRR | Multi-agent |
+| Recharts | multer (uploads) | |
+| Framer Motion | CORS + dotenv | |
 
-Hosting: Vercel (frontend, free) + Render.com (backend, free)
-Total cost: ₹0/month
-```
-
+**Hosting:** Vercel (frontend, free) + Render.com (backend, free)
+**Total cost:** ₹0/month
 ---
 
 ## Impact Model
