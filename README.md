@@ -91,12 +91,6 @@ India has **14 crore+ demat accounts**. Most retail investors are flying blind â
 
 ```
 
-Tech Stack
-
----
-
-### Project Tech Stack & Hosting
-
 | Feature | Description |
 | :--- | :--- |
 | **Frontend** | React 18 + TypeScript, Vite 5, Tailwind CSS, Recharts, Framer Motion |
@@ -104,9 +98,6 @@ Tech Stack
 | **AI** | Claude Sonnet 4, Anthropic SDK, Multi-agent architecture |
 | **Hosting** | Vercel (frontend, free) + Render.com (backend, free) |
 | **Total Cost** | â‚¹0/month |
-
----
-
 
 ```
 ## Impact Model
