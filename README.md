@@ -91,8 +91,6 @@ India has **14 crore+ demat accounts**. Most retail investors are flying blind â
 ## Tech Stack
 
 
-Tech Stack
-
 | Feature       | Description                                                                 |
 |---------------|-----------------------------------------------------------------------------|
 | Frontend      | React 18 + TypeScript, built with Vite 5; styling with Tailwind CSS; charts via Recharts; UI animations handled by Framer Motion |
