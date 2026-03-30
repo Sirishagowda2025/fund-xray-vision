@@ -73,6 +73,7 @@ India has **14 crore+ demat accounts**. Most retail investors are flying blind �
 │  Insights   → recommendations, red flags, plan       │
 │  Chat       → portfolio-aware conversational Q&A     │
 └─────────────────────────────────────────────────────┘
+
 ```
 
 ### Agent Roles in Detail
@@ -90,13 +91,15 @@ India has **14 crore+ demat accounts**. Most retail investors are flying blind �
 ## Tech Stack
 
 ```
-| Feature     | Description                                                                 |
-|-------------|-----------------------------------------------------------------------------|
-| Frontend    | React 18 + TypeScript, Vite 5, Tailwind CSS, Recharts, Framer Motion        |
-| Backend     | Node.js + Express 5, pdf-parse, Newton–Raphson XIRR, multer, CORS, dotenv   |
-| AI          | Anthropic Claude Sonnet v4 via Anthropic SDK; multi-agent architecture     |
-| Hosting     | Vercel (frontend) and Render (backend) — both using free tiers              |
-| Estimated Cost | ₹0 / month                                                              |
+Tech stack
+| Feature       | Description                                                                 |
+|---------------|-----------------------------------------------------------------------------|
+| Frontend      | React 18 + TypeScript, Vite 5, Tailwind CSS, Recharts, Framer Motion       |
+| Backend       | Node.js + Express 5; pdf-parse; Newton–Raphson XIRR implementation; multer; CORS; dotenv |
+| AI            | Anthropic Claude (Sonnet v4) via Anthropic SDK; multi-agent architecture   |
+| Hosting       | Vercel (frontend) and Render (backend) — both on free tiers                |
+| Estimated cost| ₹0 / month                                                                  |
+
 
 ```
 ## Impact Model
