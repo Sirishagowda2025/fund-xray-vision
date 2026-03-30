@@ -91,7 +91,7 @@ India has **14 crore+ demat accounts**. Most retail investors are flying blind �
 ## Tech Stack
 
 ```
-Tech stack
+
 | Feature       | Description                                                                 |
 |---------------|-----------------------------------------------------------------------------|
 | Frontend      | React 18 + TypeScript, Vite 5, Tailwind CSS, Recharts, Framer Motion       |
@@ -100,8 +100,8 @@ Tech stack
 | Hosting       | Vercel (frontend) and Render (backend) — both on free tiers                |
 | Estimated cost| ₹0 / month                                                                  |
 
-
 ```
+
 ## Impact Model
 
 ```
