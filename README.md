@@ -90,17 +90,17 @@ India has **14 crore+ demat accounts**. Most retail investors are flying blind �
 
 ## Tech Stack
 
-```
+
+Tech Stack
 
 | Feature       | Description                                                                 |
 |---------------|-----------------------------------------------------------------------------|
-| Frontend      | React 18 + TypeScript, Vite 5, Tailwind CSS, Recharts, Framer Motion       |
-| Backend       | Node.js + Express 5; pdf-parse; Newton–Raphson XIRR implementation; multer; CORS; dotenv |
-| AI            | Anthropic Claude (Sonnet v4) via Anthropic SDK; multi-agent architecture   |
-| Hosting       | Vercel (frontend) and Render (backend) — both on free tiers                |
-| Estimated cost| ₹0 / month                                                                  |
+| Frontend      | React 18 + TypeScript, built with Vite 5; styling with Tailwind CSS; charts via Recharts; UI animations handled by Framer Motion |
+| Backend       | Node.js + Express 5 API; file parsing with pdf-parse; multipart uploads via multer; XIRR computed using a Newton–Raphson implementation; CORS and dotenv for configuration |
+| AI            | Anthropic Claude (Sonnet v4) via Anthropic SDK; multi-agent architecture (Parser, Calculator, Insights, Chat) to separate concerns |
+| Hosting       | Frontend on Vercel, backend on Render — both deployed on free tiers for prototyping |
+| Estimated cost| ₹0 / month (based on free tiers; budget for paid Anthropic API usage if traffic or models scale) |                                                                |
 
-```
 
 ## Impact Model
 
