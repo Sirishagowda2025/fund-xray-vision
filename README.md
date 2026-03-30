@@ -90,6 +90,7 @@ India has **14 crore+ demat accounts**. Most retail investors are flying blind â
 ## Tech Stack
 
 ```
+
 | **Frontend** | **Backend** | **AI** |
 | :--- | :--- | :--- |
 | React 18 + TypeScript | Node.js + Express 5 | Claude Sonnet 4 |
@@ -102,6 +103,8 @@ India has **14 crore+ demat accounts**. Most retail investors are flying blind â
 **Total cost:** â‚¹0/month
 ---
 
+
+```
 ## Impact Model
 
 ```
