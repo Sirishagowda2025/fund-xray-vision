@@ -55,7 +55,8 @@ India has **14 crore+ demat accounts**. Most retail investors are flying blind â
 
 ![Workflow Diagram](architecture_flow.png)
 
-``
+
+
 ### Agent Roles in Detail
 
 **Agent 1 â€” Parser** takes raw PDF text (messy, multi-page, inconsistent formatting) and extracts a clean JSON array of fund holdings with name, category, invested amounts, current value, NAV, and transaction history.
