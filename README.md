@@ -91,16 +91,16 @@ India has **14 crore+ demat accounts**. Most retail investors are flying blind �
 
 ```
 
-| **Frontend** | **Backend** | **AI** |
-| :--- | :--- | :--- |
-| React 18 + TypeScript | Node.js + Express 5 | Claude Sonnet 4 |
-| Vite 5 | pdf-parse | Anthropic SDK |
-| Tailwind CSS | Newton-Raphson XIRR | Multi-agent |
-| Recharts | multer (uploads) | |
-| Framer Motion | CORS + dotenv | |
+### Project Tech Stack & Hosting
 
-**Hosting:** Vercel (frontend, free) + Render.com (backend, free)
-**Total cost:** ₹0/month
+| Feature | Description |
+| :--- | :--- |
+| **Frontend** | React 18 + TypeScript, Vite 5, Tailwind CSS, Recharts, Framer Motion |
+| **Backend** | Node.js + Express 5, pdf-parse, Newton-Raphson XIRR, multer (uploads), CORS + dotenv |
+| **AI** | Claude Sonnet 4, Anthropic SDK, Multi-agent architecture |
+| **Hosting** | Vercel (frontend, free) + Render.com (backend, free) |
+| **Total Cost** | ₹0/month |
+
 ---
 
 
