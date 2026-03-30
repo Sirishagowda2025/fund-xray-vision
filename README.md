@@ -91,6 +91,10 @@ India has **14 crore+ demat accounts**. Most retail investors are flying blind â
 
 ```
 
+Tech Stack
+
+---
+
 ### Project Tech Stack & Hosting
 
 | Feature | Description |
