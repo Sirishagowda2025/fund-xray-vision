@@ -52,30 +52,10 @@ India has **14 crore+ demat accounts**. Most retail investors are flying blind �
 
 ## Architecture
 
-```
-┌─────────────────────────────────────────────────────┐
-│                    User Browser                      │
-│  Login → Onboarding → Upload → Loading → Dashboard  │
-└────────────────────────┬────────────────────────────┘
-                         │ HTTPS
-┌────────────────────────▼────────────────────────────┐
-│            Node.js + Express 5 API                   │
-│  POST /api/analyze/upload    → Parser Agent          │
-│  POST /api/analyze/portfolio → Financial Calculator  │
-│  POST /api/analyze/insights  → Insights Agent        │
-│  POST /api/analyze/chat      → Chat Agent            │
-└────────────────────────┬────────────────────────────┘
-                         │
-┌────────────────────────▼────────────────────────────┐
-│           Four Claude AI Agents                      │
-│  Parser     → PDF text → structured JSON             │
-│  Calculator → XIRR, overlap, expense, score          │
-│  Insights   → recommendations, red flags, plan       │
-│  Chat       → portfolio-aware conversational Q&A     │
-└─────────────────────────────────────────────────────┘
 
-```
+![Workflow Diagram](architecture_flow.png)
 
+``
 ### Agent Roles in Detail
 
 **Agent 1 — Parser** takes raw PDF text (messy, multi-page, inconsistent formatting) and extracts a clean JSON array of fund holdings with name, category, invested amounts, current value, NAV, and transaction history.
