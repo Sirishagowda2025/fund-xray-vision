@@ -3,7 +3,7 @@
 > **ET Gen AI Hackathon 2026 — Phase 2 Submission**  
 > Problem Statement #9: AI Money Mentor · Solo submission by Sirisha D
 
-**Live App:** https://fund-xray-vision.vercel.app  
+**Live App:** https://fund-xray-vision.vercel.app 
 
 ---
 
