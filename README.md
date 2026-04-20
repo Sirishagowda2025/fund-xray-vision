@@ -17,17 +17,19 @@ India has **14 crore+ demat accounts**. Most retail investors are flying blind �
 
 ## What It Does
 
+What It Does
 graph TD
-    A[📂 Upload CSV Statement] --> B[PapaParse reads file locally]
+    A[Upload CSV Statement] --> B[PapaParse reads file locally]
     B --> C[Calculate true XIRR per fund]
     C --> D[Detect overlap between funds]
-    D --> E[Compute expense drag in ₹]
+    D --> E[Compute expense drag in rupees]
     E --> F[Generate rule-based insights]
-    F --> G[📊 Full Dashboard]
+    F --> G[Full Dashboard]
     G --> H[Health Score]
     G --> I[FIRE Plan]
     G --> J[Risk Radar]
     G --> K[AI Chat]
+    
 ---
 ## Features
 
