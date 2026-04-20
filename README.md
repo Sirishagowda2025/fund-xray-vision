@@ -17,16 +17,17 @@ India has **14 crore+ demat accounts**. Most retail investors are flying blind �
 
 ## What It Does
 
-Upload CSV statement (CAMS / KFintech format)
-        ↓
-Financial engine parses funds locally using PapaParse
-        ↓
-Rule-based engine calculates true XIRR, overlap, expense drag
-        ↓
-Smart insights generated instantly — no AI API needed
-        ↓
-Full dashboard: Health Score · FIRE Plan · Risk Radar · AI Chat
-
+graph TD
+    A[📂 Upload CSV Statement] --> B[PapaParse reads file locally]
+    B --> C[Calculate true XIRR per fund]
+    C --> D[Detect overlap between funds]
+    D --> E[Compute expense drag in ₹]
+    E --> F[Generate rule-based insights]
+    F --> G[📊 Full Dashboard]
+    G --> H[Health Score]
+    G --> I[FIRE Plan]
+    G --> J[Risk Radar]
+    G --> K[AI Chat]
 ---
 ## Features
 
