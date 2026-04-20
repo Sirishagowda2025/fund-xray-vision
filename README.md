@@ -17,11 +17,13 @@ India has **14 crore+ demat accounts**. Most retail investors are flying blind �
 
 ## What It Does
 
-Upload CAMS / KFintech PDF  →  Claude AI reads the statement
+Upload CSV statement (CAMS / KFintech format)
         ↓
-Financial engine calculates true XIRR, overlap, expense drag
+Financial engine parses funds locally using PapaParse
         ↓
-Claude AI generates personalised recommendations
+Rule-based engine calculates true XIRR, overlap, expense drag
+        ↓
+Smart insights generated instantly — no AI API needed
         ↓
 Full dashboard: Health Score · FIRE Plan · Risk Radar · AI Chat
 
